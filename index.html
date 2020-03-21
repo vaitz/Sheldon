@@ -145,6 +145,11 @@
 			<br>
 		</ol>
 	</section>
+		
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.css">
+	<link rel="stylesheet" href="style.css">
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.1/emojionearea.min.js"></script>
 
 	<section id="contact" class="section" align="center">
 		<br><br>
@@ -163,35 +168,16 @@
 				<input name="email" type="text" size="25"></p>
 
 			<p><strong>Comments:</strong>
-				<textarea name="comments" rows="4" cols="36"></textarea>
+				<div class="emojicontainer">
+					<textarea id="text" name="comments" class="form-control" placeholder="Message" rows="4" cols="36"></textarea>
+				  </div>
+				  <script>
+					$("#text").emojioneArea({
+				  pickerPosition:"right"
+					});
+					
+				  </script>
 			</p>
-
-
-			<p><strong>Fealings about the site:</strong>
-				<select name="rating">
-					<option selected="">🖤
-					</option>
-					<option>😍
-					</option>
-					<option>👏
-					</option>
-					<option>😂
-					</option>
-					<option>😊
-					</option>
-					<option>👍
-					</option>
-					<option>😮
-					</option>
-					<option>😐
-					</option>
-					<option>🤨
-					</option>
-					<option>😴
-					</option>
-					<option>😢
-					</option>
-				</select></p>
 
 			<input type="submit" value="Submit">
 			<input type="reset" value="Clear">
