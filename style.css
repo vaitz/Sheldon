@@ -25,3 +25,8 @@ html{
 h1{
   font-size: 170%;
 }
+#contact .emojicontainer{
+	width: 500px;
+	margin: 30px auto;
+	text-align: left;
+}
