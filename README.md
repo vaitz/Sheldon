@@ -1,5 +1,5 @@
-# vaitz.github.io
+# Website assighment 1
 Sheldon site, 
 ID 312411499, 
-vaitz, 
+May Vaitz, 
 https://vaitz.github.io
