@@ -13,7 +13,7 @@
   padding: 9px 30px;
 }
 #menu li:hover{
-  background: #023f60;
+  background: #3c515c;
 }
 #menu a {
   color: black;
@@ -22,29 +22,25 @@
   font: bold;
 }
 #info{
-    border-radius: 40px;
+  border-radius: 40px;
   background: #ffffffcc;
-    margin-right: 25px;
-    margin-left: 10px;
+  margin-right: 25px;
+  margin-left: 20px;
   display: inline-block;
-  padding: 9px 30px;
-  
+  padding: 25px 30px;
 }
 #ans{
-    border-radius: 40px;
+  border-radius: 40px;
   background: #ffffffcc;
-    margin-right: 20px;
-    margin-left: 10px;
+  margin-right: 150px;
   display: inline-block;
-  padding: 9px 30px;
+  padding: 10px 35px;
 }
 body{
-width: 100%;
-    height: 100%;
-
-    background: url("back.jpg") center fixed;
-    background-size: cover;
-
+  width: 100%;
+  height: 100%;
+  background: url("back.jpg") center fixed;
+  background-size: cover;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1{
@@ -93,5 +89,4 @@ h1{
 #reset:hover {
   background:#3c515c;
   border-color:#3c515c;
-
 }
