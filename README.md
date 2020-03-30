@@ -1,11 +1,11 @@
 # Website assignment 1
-Sheldon site,
+Sheldon site
 
 ID: 312411499, 
 
-May Vaitz, 
+name: May Vaitz
 
-user: vaitz, 
+user: vaitz
 
 site:
 
