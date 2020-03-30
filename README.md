@@ -1,5 +1,6 @@
 # Website assignment 1
-Sheldon site, \n
+Sheldon site,
+
 ID: 312411499, 
 May Vaitz, 
 user: vaitz, 
