@@ -5,9 +5,7 @@ Sheldon site
 
 ID: 312411499
 
-name: May Vaitz
+Name: May Vaitz
 
-user: vaitz
-
-site: https://vaitz.github.io/SheldonWebsite/
+Website: https://vaitz.github.io/SheldonWebsite/
 
